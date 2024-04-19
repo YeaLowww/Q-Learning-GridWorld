@@ -19,4 +19,18 @@ The agent has four possible actions in each state (grid square): west, north, so
 
 You will use a reinforcement learning algorithm to compute the best policy for finding the gold with as few steps as possible while avoiding the bomb. For this, we will use the following reward function: -1 for each navigation action, an additional +10 for finding the gold, and an additional -10 for hitting the bomb. For example, the immediate reward for transitioning into the square with the gold is -1 + 10 = +9. Do not use discounting (that is, set gamma=1).
 
-<img src="img/1.png" style="width: 200px;" align="center"/>
+<img src="img/Q-Learning.png" style="width: 600px;" align="center"/>
+
+
+## Q-Agent vs Random Agent
+
+Description: A comparison of the behavior and performance between a Q-learning agent and a random agent in a simple environment.
+
+<img src="img/Q-Agent.png" style="width: 400px;" align="center"/> <img src="img/Random.png" style="width: 415px;" align="center"/> 
+
+
+## Impact of Learning Rate
+
+<img src="img/Impact of Learning Rate.png" style="width: 450px;" align="left"/>
+
+Description: A comparison of how different learning rates affect the convergence and performance of the Q-learning algorithm.
